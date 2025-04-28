@@ -11,7 +11,7 @@ This repository contains a fullstack application featuring a Node.js API connect
 
 ## Live Demo
 
-You can view the project's front-end live here: [User Registration App](https://<regulusrk>.github.io/user-registration-app/)
+You can view the project's front-end live here: [User Registration App](https://regulusrk.github.io/user-registration-app/)
 ONLY THE FRONT-END
 
 
