@@ -24,35 +24,39 @@ form {
   width: 400px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.601) 1px 1px 10px;
+}
 
-  & button {
-    border-radius: 30px;
-    background-color: #010326;
-    height: 40px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    color: #f4f4f4;
-    font-size: 14px;
-    transition: transform 0.4s ease-in-out;
-  }
+form button {
+  border-radius: 30px;
+  background-color: #010326;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #f4f4f4;
+  font-size: 14px;
+  transition: transform 0.4s ease-in-out;
+}
 
-  & button:hover {
-    opacity: 0.8;
-    transform: scale(1.1);
-    color: #F2955E;
-  }
+form button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  color: #F2955E;
+}
 
-  & input {
-    border: 1px solid #48456C;
-    border-radius: 30px;
-    height: 40px;
-    background-color: #363653;
-    color: #fff;
-    font-size: 16px;
-    padding-left: 10px;
-    outline: none;
-  }
+form input {
+  border: 1px solid #48456C;
+  border-radius: 30px;
+  height: 40px;
+  background-color: #363653;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 10px;
+  outline: none;
+}
+
+form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .card {
@@ -64,32 +68,37 @@ form {
   width: 400px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.601) 1px 1px 10px;
-
-  & p {
-    color: #fff;
-    font-weight: bold;
-    margin-left: 5px;
-
-    & span {
-      font-weight: normal;
-      padding-left: 5px;
-    }
-  }
-
-  & button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  & button:hover {
-    opacity: 0.8;
-    transform: scale(1.1);
-  }
 }
 
-/* Responsividade */
+.card p {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.card p span {
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+.card button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+body {
+  background-color: #1a1a1a;
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
 @media (max-width: 500px) {
   form {
     width: 90%;

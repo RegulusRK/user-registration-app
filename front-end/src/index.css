@@ -1,14 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
 
-  input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button {
+*::-webkit-inner-spin-button,
+*::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
 }
 
 body {
