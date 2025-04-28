@@ -9,6 +9,12 @@ This repository contains a fullstack application featuring a Node.js API connect
 - Stores user data in a MongoDB database  
 - Supports full CRUD operations: Create, Read, Update, Delete  
 
+## Live Demo
+
+You can view the project's front-end live here: [User Registration App](https://<regulusrk>.github.io/user-registration-app/)
+ONLY THE FRONT-END
+
+
 ## 📁 Project Structure
 
 ```
